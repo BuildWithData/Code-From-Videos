@@ -27,7 +27,7 @@ class Analytics:
 
         self.data = df
 
-    def get_videos_per_month(self) -> DataFrame:
+    def get_videos_per_month(self, heatmap: bool = False) -> DataFrame:
 
         videos_per_month = (
             self.data
@@ -44,7 +44,11 @@ class Analytics:
         videos_per_month["tot"] = videos_per_month.apply(lambda r: sum(r), axis=1)
         videos_per_month["mean"] = videos_per_month.tot.apply(lambda n: int(round(n / 12)))
 
-        return videos_per_month.style.set_properties(**{'font-size': '20px'})
+        if heatmap is True:
+
+            videos_per_month = self._heatmap(videos_per_month[list(range(1, 13))])
+
+        return videos_per_month
 
     def get_videos_per_year(self) -> Figure:
 
@@ -130,7 +134,7 @@ class Analytics:
 
         return avg_views_from_month
 
-    def total_minutes_per_month(self) -> DataFrame:
+    def get_total_minutes_per_month(self, heatmap: bool = True) -> DataFrame:
 
         minutes_per_month = (
     
@@ -145,9 +149,12 @@ class Analytics:
         for c in minutes_per_month.columns:
             minutes_per_month = minutes_per_month.astype({c: int})
             
+        if heatmap is True:
+            minutes_per_month = self._heatmap(minutes_per_month)
+
         return minutes_per_month
 
-    def avg_minutes_per_month(self) -> DataFrame:
+    def get_avg_minutes_per_month(self, heatmap: bool = False) -> DataFrame:
    
         minutes_per_month = (
 
@@ -176,5 +183,8 @@ class Analytics:
             
         minutes_per_month["tot"] = minutes_per_month.apply(lambda r: sum(r), axis=1)
         minutes_per_month["mean"] = minutes_per_month.tot.apply(lambda n: int(round(n / 12)))
+
+        if heatmap is True:
+            minutes_per_month = self._heatmap(minutes_per_month)
 
         return minutes_per_month
