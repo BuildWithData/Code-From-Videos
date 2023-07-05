@@ -12,6 +12,7 @@ Video playlist available [here](https://youtube.com/playlist?list=PLeOoFBQ0kLpM1
 
 
 Patches can be found at `./patch`... but why do you to patch pytube !?
+
 Pytube is having a few issues recently and I guess they are struggling to find maintainers.
 Luckily the project is very popular and as soons as something breaks a patch is pushed, in this video
 I explain how to patch the code, the only headache is that you have to look into the pull request
