@@ -11,7 +11,7 @@ Do not forget to install dependencies listed at `./requirements.txt`
 Video playlist available [here](https://youtube.com/playlist?list=PLeOoFBQ0kLpM1GHm4qhxRPF4A8WdlTwsA)
 
 
-Patches can be found at `./patch`... but why do you to patch pytube !?
+Patches can be found at `./patch`... but why should you patch pytube !?
 
 Pytube is having a few issues recently and I guess they are struggling to find maintainers.
 Luckily the project is very popular and as soons as something breaks a patch is pushed, in this video
