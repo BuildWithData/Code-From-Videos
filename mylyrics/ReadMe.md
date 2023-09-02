@@ -10,6 +10,6 @@ By the end of this series you will be able to run it like this:
 
     mylyrics --artist beatles --song yesterday
 
-Code from each episode is available in the folder `./episodeX` found here
+Code from each episode is available in the folder `./episodeX` right here in this folder
 
 Video playlist available [here](TODO)
