@@ -4,7 +4,10 @@
 
 ---
 
-Mylyrics project is a command line app to scrape song lyrics from the internet
+This project teaches you how to build a command line app to scrape song lyrics from the internet,
+by the end of this series you will be able to run it like this:
+
+    mylyrics --artist beatles --song yesterday
 
 Video playlist available [here](TODO)
 
