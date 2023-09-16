@@ -12,4 +12,4 @@ By the end of this series you will be able to run it like this:
 
 Code from each episode is available in the folder `./episodeX` found right here in the `mylyrics` folder
 
-Video playlist available [here](TODO)
+Video playlist available [here](https://www.youtube.com/playlist?list=PLeOoFBQ0kLpPwIMWnScAnK_N_4c-Pnbn8)
