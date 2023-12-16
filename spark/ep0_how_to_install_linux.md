@@ -5,7 +5,7 @@ if you prefer watching videos, a tutorial also is available [here](TODO).
 Notice that this tutorial is one of many video tutorials available
 [here](TODO)
 
-## Install Dependecies
+## 1)Install Dependecies
 Spark has 2 main dependencies:
 
     1) java -> jdk
@@ -71,48 +71,51 @@ and to check it version:
 
     python3 --version
 
-# Download and Install Spark
-Latest spark software can be found here https://spark.apache.org/downloads.html
+## 2)Download and Install Spark
+Latest spark software can be found [here](https://spark.apache.org/downloads.html)
 
 At this page we can choose the version we prefer, but make sure the one you pick
-is compatible with the java and python version you have just installed
+is compatible with the java and python versions you have just installed
 
-It's easier to check the video for the following steps
+Btw it's easier to check the [video](TODO) for the following steps
 
 To download it, you can manually click on the spark software name at point 3:
 
     3.Download Spark: spark-3.5.0-bin-hadoop3.tgz
 
-and then your are redirect to a new page with a link to donwload the software
+and then your are redirected to a new page with a link to donwload the software.
 This works fine if you are working on your local machine, 
 but if you wanna install spark on a remote server then the fastest way 
 is to copy the download URL and then on your remote machine type:
 
-    wget https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz 
+    > wget https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz 
 
-now you should have a copy of spark donwload in the foler you are at:
+If `wget` is missing, you can install it like `java` and `python` using `apt`.
+Now you should have a copy of spark download in the folder you are at:
 
-    ls
+    > ls
     spark-3.5.0-bin-hadoop3.tgz 
 
 To extract the file:
 
-    tar -xzf spark-3.5.0-bin-hadoop3.tgz
+    > tar -xzf spark-3.5.0-bin-hadoop3.tgz
 
--x -> extract 
--z -> use gzip
--f -> archive file, ie file to unzip
+these are what the options are for if you don't know them:
+
+    -x -> extract 
+    -z -> use gzip
+    -f -> archive file, ie file to unzip
 
 once finished you should see this:
 
-    ls 
+    > ls 
     spark-3.5.0-bin-hadoop3
     spark-3.5.0-bin-hadoop3.tgz 
    
 so what you have now is a folder called spark-3.5.0-bin-hadoop3 where
 you will find all the spark binaries
 
-# Set up Environmental Variables
+## 3)Set up Environmental Variables
 Now that we have spark installed, we want to be able to use it
 anytime we want, but if try, it won't work:
 
