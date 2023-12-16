@@ -128,7 +128,7 @@ anytime we want, but if we try to spin the `python` shell for example, it won't 
     > pyspark
     spark: command not found
 
-that's bcs the folder where the binaries are found is not added to the PATH variable yet.
+that's bcs the folder where the binaries are found is not added to the `PATH` variable yet.
 To do so, let's add the spark folder (usually called `SPARK_HOME`) to your `bash.rc` file.
 First let's open the file by:
 
@@ -150,7 +150,7 @@ To make the changes effective, save and quit the file and then type:
 
     > source ~/.bashrc
 
-now if you check the PATH variable you should see:
+now if you check the `PATH` variable you should see:
 
     > echo $PATH
     /usr/local/bin:....:/home/bwd/spark-3.5.0-bin-hadoop3/bin
