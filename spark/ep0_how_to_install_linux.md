@@ -128,7 +128,7 @@ anytime we want, but if we try to spin the `python` shell for example, it won't 
     > pyspark
     spark: command not found
 
-that's bcs the folder where the binaries are found is not added to the PATH variable yet
+that's bcs the folder where the binaries are found is not added to the PATH variable yet.
 To do so, let's add the spark folder to your `bash.rc` file:
 
     vi ~/.bashrc
