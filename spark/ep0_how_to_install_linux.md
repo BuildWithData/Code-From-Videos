@@ -53,23 +53,23 @@ the [official documentation](https://spark.apache.org/docs/latest/)
 ### Python
 To check if python is installed:
 
-    python3 --version
+    > python3 --version
 
 make sure to use python3 and not python, as python 2 is not under maintenance
 anymore since 1st Jan 2020.
 
 To install python:
 
-   sudo apt-get install python3
+   > sudo apt-get install python3
 
 if installation is succesfull then you should be able to get this output:
 
-    which python3
+    > which python3
     /usr/bin/python3
 
 and to check it version:
 
-    python3 --version
+    > python3 --version
 
 ## 2) Download and Install Spark
 Latest spark software can be found [here](https://spark.apache.org/downloads.html)
