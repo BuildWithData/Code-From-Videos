@@ -123,7 +123,7 @@ you will find all the spark binaries
 
 ## 3) Set up Environmental Variables
 Now that we have the spark on our machine, we want to be able to use it
-anytime we want, but if try to spin the `python` shell for example, it won't work:
+anytime we want, but if we try to spin the `python` shell for example, it won't work:
 
     > pyspark
     spark: command not found
