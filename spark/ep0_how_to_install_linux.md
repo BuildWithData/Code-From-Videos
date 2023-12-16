@@ -141,7 +141,7 @@ then add these new lines at the very end:
     export PATH=$PATH:$SPARK_HOME/bin
 
 notice that `<user>` and `<folder_name>` must be replaced with
-you user and the name of the spark folder.
+your user and the name of the spark folder.
 So in my case this would be:
 
     SPARK_HOME=/home/bwd/spark-3.5.0-bin-hadoop3
