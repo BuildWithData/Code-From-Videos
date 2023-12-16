@@ -1,6 +1,6 @@
 # How to Install Spark on Linux
 This tutorial explains how to install spark on Linux,
-if you prefer watching videos, a tutorial also is available [here](TODO).
+if you prefer watching videos, a tutorial is also available [here](TODO).
 
 Notice that this tutorial is one of many video tutorials available
 [here](TODO)
