@@ -114,7 +114,7 @@ once finished you should see this:
     spark-3.5.0-bin-hadoop3
     spark-3.5.0-bin-hadoop3.tgz 
    
-so what you have now is a folder called spark-3.5.0-bin-hadoop3 where
+so what you have now is a folder called `spark-3.5.0-bin-hadoop3` where
 you will find all the spark binaries
 
 ## 3) Set up Environmental Variables
