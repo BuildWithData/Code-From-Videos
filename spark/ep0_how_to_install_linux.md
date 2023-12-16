@@ -136,7 +136,7 @@ that's bcs the folder where the binaries are found is not added to the `PATH` va
 To do so, let's add the spark folder (usually called `SPARK_HOME`) to your `bash.rc` file.
 First let's open the file by:
 
-    vi ~/.bashrc
+    > vi ~/.bashrc
 
 then add these new lines at the very end:
 
