@@ -2,13 +2,13 @@
 This tutorial explains how to install spark on Linux,
 if you prefer watching videos, a tutorial also is available here.
 
+## Install Dependecies
 Spark has 2 main dependencies:
 
     1) java -> jdk
     2) python
 
-## Install Dependecies
-First step is to make sure you packet manager is updated.
+Before installing them, first step is to make sure you packet manager is updated.
 On linux type:
 
     sudo apt update
