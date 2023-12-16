@@ -5,7 +5,7 @@ if you prefer watching videos, a tutorial also is available [here](TODO).
 Notice that this tutorial is one of many video tutorials available
 [here](TODO)
 
-## 1)Install Dependecies
+## 1) Install Dependecies
 Spark has 2 main dependencies:
 
     1) java -> jdk
@@ -71,7 +71,7 @@ and to check it version:
 
     python3 --version
 
-## 2)Download and Install Spark
+## 2) Download and Install Spark
 Latest spark software can be found [here](https://spark.apache.org/downloads.html)
 
 At this page we can choose the version we prefer, but make sure the one you pick
@@ -115,7 +115,7 @@ once finished you should see this:
 so what you have now is a folder called spark-3.5.0-bin-hadoop3 where
 you will find all the spark binaries
 
-## 3)Set up Environmental Variables
+## 3) Set up Environmental Variables
 Now that we have spark installed, we want to be able to use it
 anytime we want, but if try, it won't work:
 
