@@ -122,7 +122,7 @@ so what you have now is a folder called `spark-3.5.0-bin-hadoop3` where
 you will find all the spark binaries
 
 ## 3) Set up Environmental Variables
-Now that we have the spark on your machine, we want to be able to use it
+Now that we have the spark on our machine, we want to be able to use it
 anytime we want, but if try to spin the `python` shell for example, it won't work:
 
     > pyspark
