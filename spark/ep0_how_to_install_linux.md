@@ -9,7 +9,7 @@ Spark has 2 main dependencies:
     2) python
 
 Before installing them, first step is to make sure you packet manager is updated.
-On linux type:
+To check this out type:
 
     sudo apt update
 
