@@ -34,7 +34,7 @@ To install it:
     > sudo apt-get install openjdk-17-jdk -y
 
 The `-y` option at the end it to answer automatically yes to any prompt
-`apt` might ask during the installation. 
+`apt` might ask during the installation.
 
 Once finished, if java has been installed succesfully you should
 be able to get this output:
@@ -45,12 +45,12 @@ be able to get this output:
 and this one when checking its version:
 
     > java --version
-    openjdk .... 
+    openjdk ....
     OpenJDK Runtime Environment (build ...)
     OpenJDK 64-Bit Server VM (...)
 
 Notice that spark should run with java 8/11/17 and here version 17 is used
-as the latest, however make always sure to stay up to date by checking 
+as the latest, however make always sure to stay up to date by checking
 the [official documentation](https://spark.apache.org/docs/latest/)
 
 ### Python
@@ -89,21 +89,21 @@ To download it, you can manually click on the spark software name at point 3:
 then your are redirected to a new page with a link to download the software,
 if you click it, then spark is downloaded and you will find it in your download folder.
 
-This works fine if you are working on your local machine, 
-but if you wanna install spark on a remote server then the fastest way 
+This works fine if you are working on your local machine,
+but if you wanna install spark on a remote server then the fastest way
 is to copy the download URL and then on your remote machine type:
 
     > wget <url>
 
 where `<url>` it the URL you have just copied, so for example in my case this would be:
-    
-    > wget https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz 
+
+    > wget https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
 
 If `wget` is missing, you can install it like `java` and `python` using `apt`.
 Now you should have a copy of spark in the folder you are at:
 
     > ls
-    spark-3.5.0-bin-hadoop3.tgz 
+    spark-3.5.0-bin-hadoop3.tgz
 
 To extract the file:
 
@@ -111,17 +111,17 @@ To extract the file:
 
 these are what the options are for if you don't know them:
 
-    -x -> extract 
+    -x -> extract
     -z -> use gzip
     -f -> archive file, ie file to unzip
 
 Again if you are missing `tar` you can install it with `apt`.
 Once finished you should see this:
 
-    > ls 
+    > ls
     spark-3.5.0-bin-hadoop3
-    spark-3.5.0-bin-hadoop3.tgz 
-   
+    spark-3.5.0-bin-hadoop3.tgz
+
 so what you have now is a folder called `spark-3.5.0-bin-hadoop3` where
 you will find all the spark binaries
 
