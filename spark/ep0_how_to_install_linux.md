@@ -1,6 +1,6 @@
 # How to Install Spark on Linux
 This tutorial explains how to install spark on Linux,
-if you prefer watching videos, a tutorial also is available here.
+if you prefer watching videos, a tutorial also is available [here](TODO).
 
 ## Install Dependecies
 Spark has 2 main dependencies:
@@ -45,7 +45,7 @@ and when checking its version:
 
 Notice that spark should run with java 8/11/17 and here version 17 is used
 as the latest, however make always sure to stay up to date by checking 
-the official documentation https://spark.apache.org/docs/latest/
+the [official documentation](https://spark.apache.org/docs/latest/)
 
 ### Python
 To check if python is installed:
