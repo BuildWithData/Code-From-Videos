@@ -168,6 +168,6 @@ Spark offers several shells:
         SQL     ->   spark-sql
         R       ->   sparkR
 
-just pick one and start coding, for example:
+just pick one and start coding, for example the python shell:
 
     > pyspark
