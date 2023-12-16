@@ -90,6 +90,10 @@ This works fine if you are working on your local machine,
 but if you wanna install spark on a remote server then the fastest way 
 is to copy the download URL and then on your remote machine type:
 
+    > wget <url>
+
+where `<url>` it the URL you have just copied, so for example in my case this would be:
+    
     > wget https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz 
 
 If `wget` is missing, you can install it like `java` and `python` using `apt`.
