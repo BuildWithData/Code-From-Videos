@@ -86,7 +86,7 @@ To download it, you can manually click on the spark software name at point 3:
 
     3.Download Spark: spark-3.5.0-bin-hadoop3.tgz
 
-then your are redirected to a new page with a link to download the software,
+then you are redirected to a new page with a link to download the software,
 if you click it, then spark is downloaded and you will find it in your download folder.
 
 This works fine if you are working on your local machine,
