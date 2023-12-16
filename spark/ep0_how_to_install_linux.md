@@ -11,16 +11,16 @@ Spark has 2 main dependencies:
 Before installing them, first step is to make sure you package manager is updated.
 You can do it by typing:
 
-    sudo apt update
+    >>> sudo apt update
 
 if needed then upgrade it:
 
-    sudo apt upgrade -y
+    >>> sudo apt upgrade -y
 
 ### Java
 To check if java is installed:
 
-    java --version
+    >>> java --version
 
 if not, then this log is displayed:
 
@@ -28,17 +28,17 @@ if not, then this log is displayed:
 
 To install it:
 
-    sudo apt-get install openjdk-17-jdk -y
+    >>> sudo apt-get install openjdk-17-jdk -y
 
 once finished, if java has been installed succesfully you should
 be able to get this output:
 
-    which java
+    >>> which java
     /usr/bin/java
 
 and when checking its version:
 
-    java --version
+    >>> java --version
     openjdk .... 
     OpenJDK Runtime Environment (build ...)
     OpenJDK 64-Bit Server VM (...)
