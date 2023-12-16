@@ -39,7 +39,7 @@ be able to get this output:
     > which java
     /usr/bin/java
 
-and when checking its version:
+and this one when checking its version:
 
     > java --version
     openjdk .... 
