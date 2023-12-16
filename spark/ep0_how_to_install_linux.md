@@ -73,6 +73,7 @@ and to check it version:
 
 ## 2) Download and Install Spark
 Btw it's easier to check the [video](TODO) for the following steps
+
 Latest spark software can be found [here](https://spark.apache.org/downloads.html)
 
 At this page we can choose the version we prefer, but make sure the one you pick
