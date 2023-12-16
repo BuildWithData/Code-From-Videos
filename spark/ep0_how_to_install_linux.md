@@ -60,7 +60,7 @@ anymore since 1st Jan 2020.
 
 To install python:
 
-   > sudo apt-get install python3
+    > sudo apt-get install python3
 
 if installation is succesfull then you should be able to get this output:
 
