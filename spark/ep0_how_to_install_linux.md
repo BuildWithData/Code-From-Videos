@@ -115,7 +115,8 @@ these are what the options are for if you don't know them:
     -z -> use gzip
     -f -> archive file, ie file to unzip
 
-once finished you should see this:
+Again if you are missing `tar` you can install it with `apt`.
+Once finished you should see this:
 
     > ls 
     spark-3.5.0-bin-hadoop3
