@@ -146,7 +146,7 @@ So in my case this would be:
 
     SPARK_HOME=/home/bwd/spark-3.5.0-bin-hadoop3
 
-To make the changes effective type:
+To make the changes effective, save and quit the file and then type:
 
     > source ~/.bashrc
 
