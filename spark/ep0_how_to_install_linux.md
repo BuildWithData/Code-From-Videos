@@ -72,12 +72,11 @@ and to check it version:
     > python3 --version
 
 ## 2) Download and Install Spark
+Btw it's easier to check the [video](TODO) for the following steps
 Latest spark software can be found [here](https://spark.apache.org/downloads.html)
 
 At this page we can choose the version we prefer, but make sure the one you pick
 is compatible with the java and python versions you have just installed
-
-Btw it's easier to check the [video](TODO) for the following steps
 
 To download it, you can manually click on the spark software name at point 3:
 
