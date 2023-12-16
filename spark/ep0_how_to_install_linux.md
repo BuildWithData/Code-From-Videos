@@ -3,7 +3,7 @@ This tutorial explains how to install spark on Linux,
 if you prefer watching videos, a tutorial is also available [here](https://youtu.be/AnmG5fgfni8).
 
 Notice that this tutorial is one of many video tutorials available
-[here](TODO)
+[here](https://www.youtube.com/playlist?list=PLeOoFBQ0kLpPNThRpLDss-StNs7GTNGkY)
 
 ## 1) Install Dependecies
 Spark has 2 main dependencies:
