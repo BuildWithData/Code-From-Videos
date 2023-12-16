@@ -9,7 +9,6 @@ Spark has 2 main dependencies:
     2) python
 
 Before installing them, first step is to make sure you package manager is updated.
-
 You can do it by typing:
 
     sudo apt update
