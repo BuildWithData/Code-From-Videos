@@ -119,13 +119,13 @@ you will find all the spark binaries
 
 ## 3) Set up Environmental Variables
 Now that we have spark installed, we want to be able to use it
-anytime we want, but if try, it won't work:
+anytime we want, but if try to spin the `python` shell, it won't work:
 
-    TODO: spark
+    > pyspark
     spark: command not found
 
-that's bcs the user folder is not added to the PATH variable
-To do so, let's add the spark folder to your bash.rc file
+that's bcs the folder where the binaries are found is not added to the PATH variable yet
+To do so, let's add the spark folder to your `bash.rc` file:
 
     vi ~/.bashrc
 
@@ -134,7 +134,7 @@ then add these 2 new lines
     export SPARK_HOME=/home/<user>/<folder_name>
     export PATH=$PATH:$SPARK_HOME/bin
 
-notice that <user> and <folder_name> must be replaced with
+notice that `<user>` and `<folder_name>` must be replaced with
 you user and the name of the spark folder.
 So in my case this would be:
 
@@ -142,14 +142,14 @@ So in my case this would be:
 
 To make the changes effective type:
 
-    source ~/.bashrc
+    > source ~/.bashrc
 
 now if you check the PATH variable you should see:
 
-    echo $PATH
+    > echo $PATH
     /usr/local/bin:....:/home/bwd/spark-3.5.0-bin-hadoop3/bin
 
-# Play with Spark
+## 4) Play with Spark
 Now that you have installed spark, it's finally time to play with.
 Spark offers several shells:
 
@@ -160,4 +160,4 @@ Spark offers several shells:
 
 just pick one and start coding, for example:
 
-    pyspark
+    > pyspark
