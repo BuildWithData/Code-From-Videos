@@ -33,7 +33,10 @@ To install it:
 
     > sudo apt-get install openjdk-17-jdk -y
 
-once finished, if java has been installed succesfully you should
+The `-y` option at the end it to answer automatically yes to any prompt
+`apt` might ask during the installation. 
+
+Once finished, if java has been installed succesfully you should
 be able to get this output:
 
     > which java
