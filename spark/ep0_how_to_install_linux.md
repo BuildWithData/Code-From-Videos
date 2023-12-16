@@ -129,12 +129,14 @@ anytime we want, but if we try to spin the `python` shell for example, it won't 
     spark: command not found
 
 that's bcs the folder where the binaries are found is not added to the PATH variable yet.
-To do so, let's add the spark folder to your `bash.rc` file:
+To do so, let's add the spark folder (you can call thi `SPARK_HOME`) to your `bash.rc` file.
+First let's open the file by:
 
     vi ~/.bashrc
 
-then add these 2 new lines
+then add these new lines at the very end:
 
+    # spark
     export SPARK_HOME=/home/<user>/<folder_name>
     export PATH=$PATH:$SPARK_HOME/bin
 
