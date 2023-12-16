@@ -14,7 +14,7 @@ if needed then upgrade it:
 
     sudo apt upgrade -y
 
-## Java
+### Java
 To check if java is installed:
 
     java --version
@@ -44,7 +44,7 @@ Notice that spark should run with java 8/11/17 and here version 17 is used
 as the latest, however make always sure to stay up to date by checking 
 the official documentation https://spark.apache.org/docs/latest/
 
-## Python
+### Python
 To check if python is installed:
 
     python3 --version
